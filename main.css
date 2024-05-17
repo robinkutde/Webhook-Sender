@@ -1,0 +1,64 @@
+@import url('Ubuntu-Regular.ttf');
+
+:root {
+    --color-background: #101826;
+    --color-background-sencodary: #1e3a8a;
+    --color-background-accent: #182e6d;
+    --color-background-third: #090e16;
+    --color-text: #f7f3f3;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: "Ubuntu-Regular";
+}
+
+textarea {
+    background-color: var(--color-background-third);
+    color: var(--color-text);
+    border-radius: 5px;
+    border-color: var(--color-background-sencodary);
+    border-style: solid;
+    width: 300px;
+}
+
+input {
+    background-color: var(--color-background-third);
+    color: var(--color-text);
+    border-radius: 5px;
+    border-color: var(--color-background-sencodary);
+    border-style: solid;
+    width: 300px;
+}
+
+button {
+    border-color: var(--color-background-sencodary);
+    border-radius: 5px;
+    background-color: var(--color-background-sencodary);
+    color: white;
+    padding: 12px;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+button:hover {
+    border-color: var(--color-background-sencodary);
+    border-radius: 5px;
+    background-color: var(--color-background);
+    color: white;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+  }
+   
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-background-sencodary);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-background-accent);
+}
